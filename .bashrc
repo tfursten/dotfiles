@@ -30,11 +30,11 @@ alias psi="cd ~/Desktop/Projects/SI-cpp"
 alias ip="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/&&print$1'"
 
 alias hines="ssh tara@hines.scit.us"
-alias hershcel="ssh tara@herschel.scit.us"
+alias herschel="ssh tara@herschel.scit.us"
 
 
 alias update="sudo apt-get update && sudo apt-get upgrade"
-alias now='sudo "$BASH" -c "$(history -p !!)"'
+alias please='sudo "$BASH" -c "$(history -p !!)"'
 
 export PATH=./:$HOME/OpenBUGS323/bin:$PATH
 
