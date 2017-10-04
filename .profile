@@ -25,3 +25,5 @@ PATH=$PATH:/usr/local/texlive/2013/bin/x86_64-linux:/home/tara/julia:/usr/includ
 R_HOME=/home/tara/anaconda/pkgs/r-3.0.2-1
 alias ll="ls -lah"
 alias please="sudo !!"
+
+export PATH="$HOME/.cargo/bin:$PATH"
